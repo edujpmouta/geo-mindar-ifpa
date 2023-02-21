@@ -94,7 +94,7 @@
         </div>
 
         <a-scene
-            mindar-image="imageTargetSrc: ./Assets/Fotos_do_WhatsApp.mind; uiError:no; uiLoading:no; uiScanning:#Logotipo_IF; filterMinCF:-0.5; filterBeta: 11"
+            mindar-image="imageTargetSrc: ./Assets/BLOCOS_MAPEADOS.mind; uiError:no; uiLoading:no; uiScanning:#Logotipo_IF; filterMinCF:-0.5; filterBeta: 11"
             color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
             device-orientation-permission-ui="enabled: false">
             <a-assets>
@@ -106,6 +106,8 @@
 
                 <a-asset-item id="BLOCO_E01" src="./Assets/bloco E - 1.glb"></a-asset-item>
 
+                <a-asset-item id="BLOCO_F" src="./Assets/Bloco F.glb"></a-asset-item>
+
                 <a-asset-item id="BLOCO_H00" src="./Assets/bloco H - 0.glb"></a-asset-item>
 
                 <a-asset-item id="BLOCO_H01" src="./Assets/bloco H - 1.glb"></a-asset-item>
@@ -113,6 +115,10 @@
                 <a-asset-item id="BLOCO_G00" src="./Assets/bloco G - 0.glb"></a-asset-item>
 
                 <a-asset-item id="BLOCO_G01" src="./Assets/bloco G - 1.glb"></a-asset-item>
+
+                <a-asset-item id="BLOCO_O" src="./Assets/Bloco O - 0.glb"></a-asset-item>
+
+                <a-asset-item id="BLOCO_P" src="./Assets/Bloco P.glb"></a-asset-item>
             </a-assets>
 
             <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -137,23 +143,39 @@
                     animation-mixer></a-gltf-model>
             </a-entity>
 
+
             <a-entity mindar-image-target="targetIndex: 4">
-                <a-gltf-model rotation="80 0 0 " position="0.08 0 -0.15" scale="0.20 0.25 0.20" src="#BLOCO_H00"
+                <a-gltf-model rotation="80 0 0 " position="0.08 0 -0.15" scale="0.20 0.25 0.20" src="#BLOCO_F"
                     animation-mixer></a-gltf-model>
             </a-entity>
 
             <a-entity mindar-image-target="targetIndex: 5">
-                <a-gltf-model rotation="80 0 0 " position="0.08 0 -0.15" scale="0.20 0.25 0.20" src="#BLOCO_H01"
+                <a-gltf-model rotation="80 0 0 " position="0.08 0 -0.15" scale="0.20 0.25 0.20" src="#BLOCO_H00"
                     animation-mixer></a-gltf-model>
             </a-entity>
 
             <a-entity mindar-image-target="targetIndex: 6">
-                <a-gltf-model rotation="80 0 0 " position="0.08 0 -0.15" scale="0.20 0.25 0.20" src="#BLOCO_G00"
+                <a-gltf-model rotation="80 0 0 " position="0.08 0 -0.15" scale="0.20 0.25 0.20" src="#BLOCO_H01"
                     animation-mixer></a-gltf-model>
             </a-entity>
 
             <a-entity mindar-image-target="targetIndex: 7">
+                <a-gltf-model rotation="80 0 0 " position="0.08 0 -0.15" scale="0.20 0.25 0.20" src="#BLOCO_G00"
+                    animation-mixer></a-gltf-model>
+            </a-entity>
+
+            <a-entity mindar-image-target="targetIndex: 8">
                 <a-gltf-model rotation="80 0 0 " position="0.08 0 -0.15" scale="0.20 0.25 0.20" src="#BLOCO_G01"
+                    animation-mixer></a-gltf-model>
+            </a-entity>
+
+            <a-entity mindar-image-target="targetIndex: 9">
+                <a-gltf-model rotation="80 0 0 " position="0.08 0 -0.15" scale="0.20 0.25 0.20" src="#BLOCO_O"
+                    animation-mixer></a-gltf-model>
+            </a-entity>
+
+            <a-entity mindar-image-target="targetIndex: 10">
+                <a-gltf-model rotation="80 0 0 " position="0.08 0 -0.15" scale="0.20 0.25 0.20" src="#BLOCO_P"
                     animation-mixer></a-gltf-model>
             </a-entity>
         </a-scene>
